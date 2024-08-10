@@ -11,8 +11,10 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "scriptmaster",
-	Short: "Script Manager for Bash and Zsh Scripts",
+	Use: "scriptmaster",
+
+	Version: "v0.0.1",
+	Short:   "Script Manager for Bash and Zsh Scripts",
 
 	Long: `Script Master is a cross-platform and easy-to-use script manager
 designed to simplify the process of installing and managing Bash and Zsh scripts.
